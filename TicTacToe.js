@@ -6,7 +6,7 @@ for(let i=0;i<pic.length;i++)
 
 function play()
 {
-    this.src="https://lh3.googleusercontent.com/proxy/KWEqYYsPP4u_M-R_RfS_K88W9ArKF-tBeFW5dORpb5kp9j_cJ_OmMpleVBQZygTMOpXJ8Sq0lET8A3xLyJsf22p7lN_rJcKsjE8oXihLAGS0XlBwqfy7498baX9fDiUa0g";
+    this.src="https://lh3.googleusercontent.com/proxy/YwByh9tmoqtgwPVD4rEiLQC1NqBWPwopMjoYMex9HVmgci6ZCm35Ee4opBkvMhJa4wP819eawVFCqOfPaK0jYYB7sH6kJ_QW1YqZaVb1a4WTi24hmKVZvlfvihqrL3OPmg";
     this.className = "x";
     board[this.id] = this.className;
     this.removeEventListener('click', play);
