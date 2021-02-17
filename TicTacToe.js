@@ -2,14 +2,14 @@ var pic = document.querySelectorAll("img");
 var board = ["", "", "", "", "", "", "", "", "", ""];
 
 for(let i=0;i<pic.length;i++)
-    pic[i].addEventListener('click', play);
+    pic[i].addEventListener("click", play);
 
 function play()
 {
-    this.src="https://lh3.googleusercontent.com/proxy/YwByh9tmoqtgwPVD4rEiLQC1NqBWPwopMjoYMex9HVmgci6ZCm35Ee4opBkvMhJa4wP819eawVFCqOfPaK0jYYB7sH6kJ_QW1YqZaVb1a4WTi24hmKVZvlfvihqrL3OPmg";
+    this.src="https://cdn3.iconfinder.com/data/icons/greek-latin-symbols-solid-1/24/capital-x-512.png";
     this.className = "x";
     board[this.id] = this.className;
-    this.removeEventListener('click', play);
+    this.removeEventListener("click", play);
     win();
     if(end())
         document.getElementById("result").innerHTML = "Draw";
